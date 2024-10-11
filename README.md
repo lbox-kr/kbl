@@ -1,6 +1,6 @@
 # Korean Benchmark for Legal Language Understanding (KBL)
 - This is an official repository for the KBL dataset from [LBox](https://lbox.kr/v2).
-- The work will be presented at EMNLP 2024 Findings and the [NLLP Workshop](https://nllpw.org/workshop/).
+- The work will be presented at [EMNLP 2024](https://2024.emnlp.org/) Findings and the [NLLP Workshop](https://nllpw.org/workshop/).
 - An early version of the paper is available [here](paper/kbl-final-copy.pdf)
 
 # To Do

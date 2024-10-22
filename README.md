@@ -7,11 +7,45 @@
 - [x] [Released the benchmark on the Hugging Face Hub](https://huggingface.co/datasets/lbox/kbl)
 - [x] [Released zero-shot task `yaml` files](https://github.com/lbox-kr/lm-evaluation-harness-kbl)
 - [ ] Publish the evaluation results.
-- [ ] Release the Korean statutes and precedents corpus for RAG experiment.
+- [x] Release the Korean statutes and precedents corpus for RAG experiment.
 - [ ] Release the RAG task `yaml` files.
 - [ ] Push the yaml files and corresponding utils to the `lm-evaluation-harness` repository.
-- [ ] Share the data processing script for RAG experiments.
+- [x] Share the data processing script for RAG experiments.
 - [ ] Present the paper at EMNLP 2024.
+
+# Datasets
+## Benchmarks
+### How to load examples
+```python
+from pprint import pprint
+import datasets
+
+data = datasets.load_dataset("lbox/kbl", data_files={"test": [FILE_PATH]})
+# Example
+# data = datasets.load_dataset('lbox/kbl', data_files={"test": "knowledge/kbl_legal_concept_qa_v0.1.json"})["test"]
+pprint(data[0])
+
+```
+## Corpus
+- Korean statutes (220,160 articles. Dumped at Nov2024) 
+- Korean precedents (From [LBox-Open](https://github.com/lbox-kr/lbox-open))
+
+### How to load corpus
+```python
+from pprint import pprint
+import datasets
+
+# Load statutes corpus
+data = datasets.load_dataset('lbox/kbl', data_files={"train": "corpus/statutes.jsonl"})["train"]
+
+# Load precedents corpus
+# data = datasets.load_dataset('lbox/kbl', data_files={"train": "corpus/precedents.jsonl"})["train"]
+
+# Load precedents and statutes corpus
+# data = datasets.load_dataset('lbox/kbl', data_files={"train": "corpus/precedents_and_statutes.jsonl"})["train"]
+pprint(data[0])
+
+```
 
 
 

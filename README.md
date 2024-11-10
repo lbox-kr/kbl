@@ -8,10 +8,11 @@
 - [x] [Released zero-shot task `yaml` files](https://github.com/lbox-kr/lm-evaluation-harness-kbl)
 - [x] [Published the evaluation results.](https://huggingface.co/datasets/lbox/kbl/tree/main/emnlp24-eval-results)
 - [x] Release the Korean statutes and precedents corpus for RAG experiment.
-- [ ] Release the RAG task `yaml` files.
-- [ ] Push the yaml files and corresponding utils to the `lm-evaluation-harness` repository.
+- [x] Release the RAG task `yaml` files.
+- [ ] Make the yaml files and corresponding utils available in [`lm-evaluation-harness` repository](https://github.com/EleutherAI/lm-evaluation-harness) (WIP).
 - [x] Share the data processing script for RAG experiments.
 - [ ] Present the paper at EMNLP 2024.
+- [ ] Release yaml files for `multiple_choice` type evaluations.
 
 # Datasets
 ## Benchmarks

@@ -6,9 +6,11 @@
 # To Do
 - [x] [Released the benchmark on the Hugging Face Hub](https://huggingface.co/datasets/lbox/kbl)
 - [x] [Released zero-shot task `yaml` files](https://github.com/lbox-kr/lm-evaluation-harness-kbl)
-- [x] [Published the evaluation results.](https://huggingface.co/datasets/lbox/kbl/tree/main/emnlp24-eval-results)
+- [x] [Published the evaluation results.](https://huggingface.co/datasets/lbox/kbl-emnlp24-evaluation-results/tree/main)
 - [x] Release the Korean statutes and precedents corpus for RAG experiment.
-- [x] Release the RAG task `yaml` files.
+- [x] [Release the RAG task `yaml` files]((https://huggingface.co/datasets/lbox/kbl)).
+      - Currently, due to technical difficulty, evaluating LLMs under the RAG setting is possible with given retrived documents ing a [custom branch of `lm-eval-harness`](https://github.com/lbox-kr/lm-evaluation-harness-kbl).
+      - LRAGE, a RAG evaluation tool specifically tailored for the legal domain, is under active construction. The full features will be supported around Dec 15 2024. Please check the tool from [here](https://github.com/hoorangyee/LRAGE/tree/main)
 - [ ] Make the yaml files and corresponding utils available in [`lm-evaluation-harness` repository](https://github.com/EleutherAI/lm-evaluation-harness) (WIP).
 - [x] Share the data processing script for RAG experiments.
 - [ ] Present the paper at EMNLP 2024.

@@ -42,7 +42,7 @@ from pprint import pprint
 import datasets
 
 # Load statutes corpus
-data = datasets.load_dataset('lbox/kbl', data_files={"train": "corpus/statutes.jsonl"})["train"]
+data = datasets.load_dataset('lbox/kbl-rag', data_files={"train": "corpus/statutes.jsonl"})["train"]
 
 # Load precedents corpus
 # data = datasets.load_dataset('lbox/kbl', data_files={"train": "corpus/precedents.jsonl"})["train"]
@@ -57,13 +57,18 @@ pprint(data[0])
 
 # Citation
 ```
-@misc{kim2024developingpragmaticbenchmarkassessing,
-      title={Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models}, 
-      author={Yeeun Kim and Young Rok Choi and Eunkyung Choi and Jinhwan Choi and Hai Jin Park and Wonseok Hwang},
-      year={2024},
-      eprint={2410.08731},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2410.08731}, 
+@inproceedings{kim2024kbl,
+    title = "Developing a Pragmatic Benchmark for Assessing {K}orean Legal Language Understanding in Large Language Models",
+    author = {Yeeun Kim and Young Rok Choi and Eunkyung Choi and Jinhwan Choi and Hai Jin Park and Wonseok Hwang},
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.319",
+    pages = "5573--5595",
 }
 ```

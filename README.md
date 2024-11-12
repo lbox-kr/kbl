@@ -5,6 +5,7 @@
 
 # To Do
 - [x] [Released the benchmark on the Hugging Face Hub](https://huggingface.co/datasets/lbox/kbl)
+  - [x] To access the dataset for RAG tasks, visit [here](https://huggingface.co/datasets/lbox/kbl-rag)
 - [x] [Released zero-shot task `yaml` files](https://github.com/lbox-kr/lm-evaluation-harness-kbl)
 - [x] [Published the evaluation results.](https://huggingface.co/datasets/lbox/kbl-emnlp24-evaluation-results/tree/main)
 - [x] Release the Korean statutes and precedents corpus for RAG experiment.

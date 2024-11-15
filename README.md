@@ -14,9 +14,9 @@
   - Currently, due to technical difficulty, evaluating LLMs under the RAG setting is possible with given retrived documents ing a [custom branch of `lm-eval-harness`](https://github.com/lbox-kr/lm-evaluation-harness-kbl).
 
   - LRAGE, a RAG evaluation tool specifically tailored for the legal domain, is under active construction. The full features will be supported around Dec 15 2024. Please check the tool from [here](https://github.com/hoorangyee/LRAGE/tree/main).
-- [ ] Make the yaml files and corresponding utils available in [`lm-evaluation-harness` repository](https://github.com/EleutherAI/lm-evaluation-harness) (WIP).
+- [ ] Make the yaml files and corresponding utils available in [`lm-evaluation-harness` repository](https://github.com/EleutherAI/lm-evaluation-harness) ([WIP](https://github.com/EleutherAI/lm-evaluation-harness/pull/2476)).
 - [x] Share the data processing script for RAG experiments.
-- [ ] Present the paper at EMNLP 2024.
+- [x] Present the paper at EMNLP 2024.
 - [ ] Release yaml files for `multiple_choice` type evaluations.
 
 # Datasets
